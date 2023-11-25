@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
+
+    <link rel="stylesheet" href="assets/css/styles.css" />
+
+    <title>Portfolio Website</title>
+  </head>
+  <body>
+    <!--=============== HEADER ===============-->
+    <header class="header" id="header">
+       <nav class="nav container">
+        <a href="index.html" class="nav__logo">Swap<span>nil</span></a>
+        <div class="nav__menu" id="nav-menu">
+          <ul class="nav__list">
+            <li><a href="#home" class="nav__link active-link">Home</a></li>
+            <li><a href="#about" class="nav__link active-link">About</a></li>
+            <li><a href="#portfolio" class="nav__link active-link">Portfolio</a></li>
+            <li><a href="#contact" class="nav__link active-link">Contact</a></li>
+          </ul>
+
+          <div class="nav__close" id="nav-close">
+            <i class="ui uil-times"></i>
+          </div>
+        </div>
+
+        <div class="nav__socials">
+          <a href="https://www.linkedin.com/in/swapnil-prasad-405648229" target="_blank" class="nav__social-link">
+            <i class="uil uil-linkedin"></i>
+          </a>
+  
+          <a href="https://github.com/swapnil-prasad" target="_blank" class="nav__social-link">
+            <i class="uil uil-github"></i>
+          </a>
+  
+          <a href="https://www.instagram.com/swapnil___prasad/" target="_blank" class="nav__social-link">
+            <i class="uil uil-instagram"></i>
+          </a>
+  
+          <a href="https://api.whatsapp.com/send/?phone=%2B919665055990&text&type=phone_number&app_absent=0" target="_blank" class="nav__social-link">
+            <i class="uil uil-whatsapp"></i>
+          </a>
+        </div>
+
+        <div class="nav__btns">
+          <a href="#contact" class="nav__link-btn btn">Connect with me!</a>
+          <div class="nav__toggle" id="nav-toggle">
+            <i class="uil uil-bars"></i>
+          </div>
+        </div>
+       </nav>
+      </header>
+
+    <main class="main">
+      <!--=============== HOME ===============-->
+      <section class="home" id="home">
+        <div class="home__container container grid">
+          <div class="home__content">
+            <span class="home__subtitle">Welcome Everyone!</span>
+            <h1 class="home__title">
+              Hi ! My name is Swapnil Prasad
+              and I am an enthusiastic <span>Web Developer,</span> and an aspiring <span>Software Development Engineer.</span></h1>
+          </div>
+          <img src="assets/img/Profpic.JPG" alt="" class="home__img">
+        </div>
+        <button class="download-button"><a href="assets/Swapnil_resume.pdf" download>Download Resume</a></button>
+      </section>
+
+      <!--=============== ABOUT ===============-->
+      <section class="about section" id="about">
+        <div class="about__container container grid">
+          <img src="assets/img/about.jpeg" alt="" class="about__img">
+          <div class="about__content">
+            <h2 class="section__title">About Me</h2>
+            <p class="about__description">I am an enthusiastic web developer. I excel in C++ and JavaScript
+              programming languages and writes a code to create systems that are
+              reliable and User-friendly.</p>
+              <div class="tabs__btns">
+                <span class="tabs__btn tab__active" data-target="#skills">Main Skills</span>
+                <span class="tabs__btn" data-target="#experience">Experience</span>
+                <span class="tabs__btn" data-target="#education">Educational qualification</span>
+            
+              </div>
+
+              <div class="tabs__content">
+                <div class="tabs__item tab__active" data-content id="skills">
+                  <div class="tabs__data grid">
+                    <p class="tabs__description">
+                      <span>HTML</span>
+                    </p>
+                    <p class="tabs__description">
+                      <span>CSS</span>
+                    </p>
+                    <p class="tabs__description">
+                      <span>JavaScript</span>
+                    </p>
+                    <p class="tabs__description">
+                      <span>Node.js</span>
+                    </p>
+                    <p class="tabs__description">
+                      <span>Express.js</span>
+                    </p>
+                    <p class="tabs__description">
+                      <span>React.js</span>
+                    </p>
+                    <p class="tabs__description">
+                      <span>Redux.js</span>
+                    </p>
+                    <p class="tabs__description">
+                      <span>C++</span>
+                    </p>
+                  </div>
+                </div>
+              
+                <div class="tabs__item" data-content id="experience">
+                  <div class="tabs__data grid"> 
+                    <p class="tabs__description">
+                      <span>Web Developer</span> - CodSoft.
+                      <span>August 2023 - September 2023 (1 month)</span> 
+                    </p>
+                    <p class="tabs__description">
+                    <span>Web Developer</span> - OctaNet Services Pvt Ltd.
+                      <span>September 2023 (1 month)</span> 
+                      </p>
+                    <p class="tabs__description">
+                    <span>Software Developer</span> - Prodigy InfoTech.
+                      <span>October 2023 (1 month)</span> 
+                      </p>
+                  </div>
+                </div>
+
+                <div class="tabs__item" data-content id="education">
+                  <div class="tabs__data grid">
+                    <p class="tabs__description">
+                      <span>B.E Artificial intelligence and Machine learning</span> - Universal college of engineering
+                      <span>2021-2025</span>
+                    </p>
+                    <p class="tabs__description">
+                      <span>HSC</span> - Lokmanya tilak Junior college of science,commerce and arts.
+                      <span>2020-2021</span>
+                    </p> 
+                    <p class="tabs__description">
+                      <span>Schooling</span> - St.Francis De Sales School
+                      <span>2010-2019</span>
+                  
+                  </div>
+                </div>
+              </div>
+          </div>
+        </div>
+      </section>
+     <!--=============== PORTFOLIO ===============-->
+      <section class="portfolio section" id="portfolio">
+        <h2 class="section__title">My Latest Projects</h2>
+        <p class="section__description">Here are my latest and ongoing projects which i've been working on nowadays.</p>
+        <div class="portfolio__container container grid">
+          <div class="portfolio__item">
+            <img src="assets/img/bmiweb.png" alt="" class="portfolio__img"/>
+            <div class="portfolio__data">
+              <p class="portfolio__subtitle">Website</p>
+              <h3 class="portfolio__title">Body Mass Index Calculator and
+                Nutrition planning</h3>
+              <p class="portfolio__description">Made a Health-Concern project in
+                which you will get to know about
+                your Body Mass Index and it will
+                suggest you the diet and exercises
+                to be performed with respect to
+                your BMI. It also has Calorie
+                Calculator.
+                </p>
+            </div>
+          </div>
+
+          <div class="portfolio__item">
+            <img src="assets/img/pdfmerger.png" alt="" class="portfolio__img"/>
+            <div class="portfolio__data">
+              <p class="portfolio__subtitle">Website</p>
+              <h3 class="portfolio__title">Pdf Merger</h3>
+              <p class="portfolio__description">A Website where user can merge
+                two or more Pdfs into a single PDF file.</p>
+            </div>
+          </div>
+
+          <div class="portfolio__item">
+            <img src="assets/img/todolist.png" alt="" class="portfolio__img"/>
+            <div class="portfolio__data">
+              <p class="portfolio__subtitle">Website</p>
+              <h3 class="portfolio__title">Todo list</h3>
+              <p class="portfolio__description">A website where you can make a
+                list of your Todo routine to be
+                followed on a daily basis to help
+                you being motivated towards your
+                chores.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+
+      <!--=============== CONTACT ===============-->
+      <section class="contact section" id="contact"></section>
+    </main>
+
+    <!--=============== FOOTER ===============-->
+    <footer class="footer">
+    <div class="footer__container container grid">
+      <span href="index.html" class="footer__logo">Swap<span>nil</span></span></a>
+
+      <div class="footer__socials">
+        <a href="https://www.linkedin.com/in/swapnil-prasad-405648229" target="_blank" class="footer__social-link">
+          <i class="uil uil-linkedin"></i>
+        </a>
+
+        <a href="https://github.com/swapnil-prasad" target="_blank" class="footer__social-link">
+          <i class="uil uil-github"></i>
+        </a>
+
+        <a href="https://www.instagram.com/swapnil___prasad/" target="_blank" class="footer__social-link">
+          <i class="uil uil-instagram"></i>
+        </a>
+
+        <a href="https://api.whatsapp.com/send/?phone=%2B919665055990&text&type=phone_number&app_absent=0" target="_blank" class="footer__social-link">
+          <i class="uil uil-whatsapp"></i>
+        </a>
+      </div>
+      <p class="footer__copyright">&copy; 2023. All rights reserved.</p>
+    </div>
+  </footer>
+    <!--=============== SCROLL UP ===============-->
+ <a href="#" class="scrollup" id="scroll-up">
+  <i class="uil uil-angle-up scrollup__icon"></i>
+ </a>
+    <!--=============== MAIN JS ===============-->
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>
